@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kontak</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Kontak</h1>
+
+    <p>Telp: +62 831-2889-1612</p>
+    <p>Nama: adorlie_</p>
+    <p>Email: adelliadevianaekaputri@gmail.com</p>
+
+    <form method="POST">
+        <input type="text" name="nama" placeholder="Nama"><br>
+        <input type="email" name="email" placeholder="Email"><br>
+        <textarea name="pesan" placeholder="Pesan"></textarea><br>
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
