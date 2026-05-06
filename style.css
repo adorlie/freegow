@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.produk {
+    background: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
